@@ -1,0 +1,52 @@
+Part D
+
+1. Git help lists common git commands used in various situations
+2. Git help -ag prints all available commands and a list of useful guides 
+
+Part E
+1. These commands set up your username and email for git to use.
+2. The global option makes git always use this information for anything you do on the device
+
+Part F: 
+1. You can display the hidden files using ls -a
+2. Yes, there are two files, one called . and one called ..
+4. Git init created a file called .git
+5. If we delete the file I think that it will no longer be in our repository
+6. You could go into the terminal and 
+
+Part G: 
+1. Git status reports if there have been changes to files that might need to get committed, and if the files are ready for staging
+2. git add names.txt adds the new version of the document to the repository so that it is staged to be committed
+3. the git commit command commits the current version of all of the modified files that are ready for staging to the repository
+4. git add . adds all of the modified files at the same time to the staging area
+5. git commit without -m takes you to a vim file so that you can type your message there and save it. Makes it easier to type a longer commit message
+6. You would use git commit without the m
+7. git log shows us all of the commits to our local repository
+
+Part H:
+1. 
+Staged: Names.txt
+Unstaged: and movies.txt
+Untracked: foods.txt
+2. The ones that are staged, so just names.txt
+3. You run the add “file” command or add . to stage all changes
+4. git reset “file” will unstage any changes made
+
+1. git diff displays the modifications you have made to your file since the last time you added it
+2. git diff —-cached displays the changed that have been added but not yet committed
+3. We run git reset names.txt and git add movies.txt to execute the changes
+4. The file is no longer staged for committing, since it has been modified and we haven’t readded it. 
+5. git status tells us that names.txt has been deleted
+6. git status tells us that movies.txt has been deleted and that last-movies.txt is now an untracked file. 
+8. It holds the uncommitted changes that have been added to the repository
+9. So that you can work on multiple things and only have to commit ones that you have finished and are ready to be deployed in some sense
+
+Part I: 
+1. git reset —soft "HEAD^" undoes the last commit we made so that the staging area is the same as before the commit
+
+
+
+
+
+
+
